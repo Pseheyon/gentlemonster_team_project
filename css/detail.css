@@ -1,0 +1,43 @@
+.wrap{overflow: hidden; position: relative;}
+header{background-color: black; overflow: hidden;}
+
+section .top p{padding: 30px 0; z-index: -99;}
+section .top{display: flex; padding-top: 100px; justify-content: space-between; }
+.left{width: 940px; padding-bottom: 140px;}
+.left img{display: inline-block;}
+.img1, .img2, .img3, .img4{margin-bottom: 10px;}
+.img1, .img3{margin-right: 10px;}
+.right{width: 398px;}
+.right .name{ display: flex; justify-content: space-between; padding-bottom: 20px;}
+.right .name span:first-child{font-size: 1.25rem;}
+.right .min_products{display: flex; gap: 10px; flex-wrap: wrap;}
+.right p:first-child{font-weight: 100;}
+.right p:nth-last-child(2){font-weight: 600;}
+
+.btn{display: block;}
+.btn li:first-child{color: white; background-color: black; }
+.btn li{display: inline-block; width: 100%; text-align: center; padding: 10px; margin-bottom: 10px; border-radius: 20px; border: 1px solid black; }
+
+.list{display: block;}
+.list>li:first-child{border-top: 1px solid #ccc;}
+.list>li{padding: 15px; border-bottom: 1px solid #ccc;display: flex; justify-content: space-between; align-items: center; flex-direction: column; transition: all 0.4s;}
+.list>li>div{display: flex; justify-content: space-between; width: 100%; align-items: center;}
+.list>li>ul>li{width: 100%; text-align: left; align-items: left; padding: 10px; width: 100%;}
+.list>li:nth-child(2) img{width: 100%; height: auto;}
+.list>li:nth-child(4)>ul>li>a{width: 100%; display: inline-block;padding-bottom: 5px;}
+.more_arrow{border-bottom: 1px solid black;}
+.list li img{display: flex; align-items: center;}
+.list>li>ul{transition: all 0.6s;}
+.list>li>ul{max-height: 0; overflow: hidden;transition: all 0.6s; }
+.list>li>div>span:last-child{transition: all 0.4s; }
+
+.sns h6, .recomment h6{width: 100%; font-size: 1.25rem; display: block; font-weight: 500;}
+.sns p{width: 100%; font-size: 1rem; display: block; padding: 10px 0;}
+.star_photo{display: flex; justify-content: space-between;}
+.star_photo div p {color: #999;}
+.recomment .left{display: flex;}
+.recomment .left img{ margin-right: 10px; margin-bottom: 5px;}
+.recomment h6{padding: 30px 0 10px 0;}
+.recomment p {width: 100%; padding: 2px 0;}
+.recomment .left p:first-child{font-weight: 600;}
+.recomment p:last-child{padding-top: 4px; font-size: 0.875rem;}

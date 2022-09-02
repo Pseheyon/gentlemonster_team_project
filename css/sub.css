@@ -1,0 +1,74 @@
+.wrap{position: relative;}
+header{background-color: black;}
+.category{display: flex; align-items: center; flex-direction: column;}
+.category input{display: none;}
+.category_wrap{width: 540px; display: flex; justify-content: space-around; align-items: center; gap: 10px; text-align: center; padding-top: 50px; padding-bottom: 100px;}
+.category_center{display: flex;width: 100%; align-items: center; justify-content: center}
+.wrap{width: 100%;}
+.mv_sub{width: 100%; height: 800px;  background-image: url(../img/sub/mv_sub.png); background-position: center; background-repeat:no-repeat; background-size: cover;}
+.sheet{width: 100%; display: flex; justify-content: space-between; padding-bottom: 20px;}
+.sheet_wrap li, .wrap_size_btn li{display: block; color: #707070; font-size: 1rem;}
+.sheet_wrap li span:first-child{ display: inline-block; padding-right: 5px;}
+.wrap_size_btn li span{ display: inline-block; padding:0 5px;}
+.wrap_size_btn li div{ display: inline-block; padding:0 5px;}
+label h6{font-size: 0.875rem;color: #707070;}
+.sheet .sheet_wrap li{display: none;}
+.category_wrap label img{cursor: pointer;}
+
+#all:checked ~ .category_wrap label .all_eyewear h6{color: black;}
+#eyewear01:checked ~ .category_wrap .eyewear01{color: black;}
+#all:checked ~ .sheet .sheet_wrap li:nth-child(1){display: block;}
+#eyewear01:checked ~.sheet .sheet_wrap li:nth-child(2) {display: block;}
+#eyewear02:checked ~.sheet .sheet_wrap li:nth-child(3) {display: block;}
+#eyewear03:checked ~.sheet .sheet_wrap li:nth-child(4) {display: block;}
+#eyewear04:checked ~.sheet .sheet_wrap li:nth-child(5) {display: block;}
+
+
+/* .product{width: 338px;} */
+.product_sub_imgs {display: flex; flex-wrap: wrap; width: 100%;gap: 10px; }
+
+
+
+
+/* .product_sub_imgs>div>div> div:first-child{position: absolute; top: 0 ; left: 0;} */
+.product_sub_imgs .product_text{padding: 10px 0 20px 0; height: 100px !important;}
+
+.product_text>ul>li>span.color{width: 20px; height: 20px; display: inline-block; border: 1px solid gray;}
+.product_text>ul:last-child{height: 30px; }
+
+.product_sub_imgs img{width: 100%; height: 100%;}
+/* .on_1, .on_2{ opacity: 0; height: 0; overflow: hidden; transition: all 0.9s;} */
+.product_sub_imgs .pr  {height: 420px; transition: all 0.3s;}
+#wrap_all{display: none;}
+.wrap_size_btn li{display: flex;}
+
+
+.product_text ul {display: flex;}
+
+.BLACK, .black, .black_opacity, .green,.lemon, .orange, .sky_blue, .purple, .red, .pink, .brown, .bule, .bule_red, .blue_white, .orange_white, .purple_white, .red_white{width: 20px; height: 20px; display: inline-block; border: 1px solid gray; border-radius: 20px; margin-right: 3px;}
+
+.BLACK, .black{background: black;}
+.black_opacity{background: rgba(0, 0, 0, 0.5)}
+.green{background: #B2CFB9;}
+.lemon{background: #bbdb52;}
+.orange{background: #FFC7A2;}
+.sky_blue{background: #E4F4F9;}
+.purple{background:#F6E4F9;}
+.red{background: #FFA1A1;}
+.pink{background: #fdd6f7;}
+.brown{background: #634c4c;}
+.bule{background: #75BAFF }
+.bule_red{background: linear-gradient(#75BAFF, #FF6363, #75BAFF); }
+.blue_white{background: linear-gradient(#75BAFF, 20%, white); }
+.orange_white{background: linear-gradient(#FFC7A2, 20%, white); }
+.purple_white{background: linear-gradient(#EDA4F9, 20%, white); }
+.red_white{background: linear-gradient(#FF6363, 20%, white); }
+
+.pr>div>div{position: relative;}
+.none{position: absolute; top: 0;  text-align: center; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); color: white; line-height: 200px;}
+
+
+
+.tint, .sircle, .squar, .cateye{display: block;} 
+
+.none{display: none;}
